@@ -1,0 +1,11 @@
+1. Create sut.py
+  init: has SUT information (server ip/username/password, iteration timeout, minicom port number, ...)
+  listen_console
+  disconnect (disable console)
+  power_on
+  power_off
+2. logger
+  store all output to a log file
+3. parsing test log
+4. send report
+5. send email notification to tester when done
